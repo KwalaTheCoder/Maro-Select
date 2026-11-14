@@ -1,0 +1,1 @@
+<!doctype html><html lang="fa" dir="rtl"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/assets/style.css"><title>صفحه پیدا نشد | مارو</title><main class="wrap section"><h1>این مسیر به مارو نرسید.</h1><p>ممکن است صفحه جابه‌جا شده باشد.</p><a class="btn" href="/">بازگشت به خانه</a></main></html>

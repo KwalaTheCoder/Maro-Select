@@ -1,0 +1,43 @@
+PHPUnit 11.5.58 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.4.1
+Configuration: /workspace/scratch/6682d90e9b98/maro-backend/phpunit.xml
+
+...............................                                   31 / 31 (100%)
+
+Time: 00:01.165, Memory: 54.50 MB
+
+Store (Tests\Feature\Store)
+ ✔ Catalog and local frontend
+ ✔ Price tampering is ignored
+ ✔ Changed price requires review
+ ✔ Duplicate checkout is idempotent and owner bound
+ ✔ Last unit cannot be reserved twice
+ ✔ Duplicate callback consumes stock once
+ ✔ Untrusted callback status is not payment
+ ✔ Wrong amount or authority does not mark paid
+ ✔ Failed payment releases reservation
+ ✔ Expired reservation is released
+ ✔ Late verified payment without stock goes to exception
+ ✔ Late payment with stock succeeds
+ ✔ Shipping snapshot does not change
+ ✔ Tracking token and privacy
+ ✔ Admin requires authentication
+ ✔ Guest digits normalized and invalid quantity rejected
+ ✔ Admin can create variant upload publish and audit
+ ✔ Malicious upload rejected
+ ✔ Unpaid order cannot be shipped
+ ✔ Money conversion uses integers
+ ✔ Backup roundtrip in empty database
+ ✔ Live mode rejects demo products
+ ✔ Retry does not duplicate order
+ ✔ Unknown payment cannot be retried
+ ✔ Repeat late callback keeps exception visible
+ ✔ Settings content and server validation
+ ✔ Csrf is required outside test bypass
+ ✔ Stale admin stock cannot overwrite completed sale
+ ✔ Current revision allows audited stock change
+ ✔ Malformed array inputs are validation errors
+ ✔ Unknown old attempt cannot downgrade paid order
+
+OK (31 tests, 77 assertions)

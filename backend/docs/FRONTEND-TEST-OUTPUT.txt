@@ -1,0 +1,19 @@
+PASS Persian search normalizes Yeh/Kaf and spacing
+PASS Persian and Arabic numeric input
+PASS Corrupted storage falls back
+PASS Cart rejects negative, string and excessive quantities
+PASS Duplicate cart rows merge and cap
+PASS Valid cart admitted
+PASS Out of stock cart blocked
+PASS Archived cart blocked
+PASS Over-stock cart blocked
+PASS Unpublished variant blocked
+PASS Same-variant color + size required
+PASS Product cannot add before variant selection
+PASS Malicious product name escaped
+PASS Malformed route decode does not crash
+PASS Fulfillment state localized
+PASS Custom illustration uses SVG
+PASS Dialog has accessible name and replaces existing dialog
+PASS Form snapshots preserve variant revision
+18 frontend regression checks passed
